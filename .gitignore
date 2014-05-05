@@ -1,0 +1,8 @@
+.classpath
+.project
+.svn
+target/*
+logs/*
+.settings
+logs/*
+result.txt

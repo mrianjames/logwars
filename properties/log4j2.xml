@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug" packages="com.logwars.log4j2">
+  <Appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <!--  <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/> -->
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} LOG42 %t %-5level %msg%n"/>
+      
+      <!--  <Layout type="LogwarsConsoleLayout" /> -->
+    </Console>
+  </Appenders>
+  <Loggers>
+    <Root level="info" includeLocation="false">
+      <AppenderRef ref="Console"/>
+    </Root>
+  </Loggers>
+</Configuration>
+
