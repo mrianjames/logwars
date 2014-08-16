@@ -1,44 +1,156 @@
+Sat Aug 16 20:22:39 BST 2014
+Darwin Ians-MacBook-Air.local 13.2.0 Darwin Kernel Version 13.2.0: Thu Apr 17 23:03:13 PDT 2014; root:xnu-2422.100.13~1/RELEASE_X86_64 x86_64
 #################################
-Test: Oaktree threads 20
+Test: OAKTREE_CONSOLE threads 20 @ 20:22:40
 #################################
-LOG_SPEED: 10000 in 1,340.75 ms.
-IS_ENABLED: 10000 in 0.25 ms.
-LOGGER_RET: 10000 in 0.66 ms.
-LOG_SPEED: 20: 200000 in 46,314.21 ms.
-IS_ENABLED: 20: 200000 in 0.07 ms.
-LOGGER_RET: 20: 200000 in 0.77 ms.
-Duration: 47,716.52 ms.
-#################################
-#################################
-Test: JDK threads 20
-#################################
-LOG_SPEED: 10000 in 2,674.87 ms.
-IS_ENABLED: 10000 in 0.29 ms.
-LOGGER_RET: 10000 in 1.29 ms.
-LOG_SPEED: 20: 200000 in 53,304.29 ms.
-IS_ENABLED: 20: 200000 in 0.19 ms.
-LOGGER_RET: 20: 200000 in 264.07 ms.
-Duration: 58,909.04 ms.
-#################################
-#################################
-Test: LogBack threads 20
-#################################
-LOG_SPEED: 10000 in 1,498.64 ms.
-IS_ENABLED: 10000 in 0.3 ms.
-LOGGER_RET: 10000 in 1.43 ms.
-LOG_SPEED: 20: 200000 in 37,406.09 ms.
+LOG_SPEED: 10000 in 450.29 ms.
+IS_ENABLED: 10000 in 0.36 ms.
+LOGGER_CRE: 10000 in 0.11 ms.
+LOGGER_RET: 10000 in 29.34 ms.
+LOG_SPEED: 20: 200000 in 8,807.46 ms.
 IS_ENABLED: 20: 200000 in 0.18 ms.
-LOGGER_RET: 20: 200000 in 95.89 ms.
-Duration: 39,947.13 ms.
+LOGGER_CRE: 20: in 0.56 ms.
+LOGGER_RET: 20: 200000 in 901.93 ms.
+Duration: 20,022.61 ms.
+Allocation: 0 bytes.
 #################################
 #################################
-Test: Log4J threads 20
+Test: OAKTREE_MINIMAL threads 20 @ 20:23:02
 #################################
-LOG_SPEED: 10000 in 1,385.05 ms.
-IS_ENABLED: 10000 in 0.25 ms.
-LOGGER_RET: 10000 in 0.69 ms.
-LOG_SPEED: 20: 200000 in 46,449.18 ms.
-IS_ENABLED: 20: 200000 in 0.07 ms.
-LOGGER_RET: 20: 200000 in 0.78 ms.
-Duration: 47,894.28 ms.
+LOG_SPEED: 10000 in 380.5 ms.
+IS_ENABLED: 10000 in 0.53 ms.
+LOGGER_CRE: 10000 in 0.11 ms.
+LOGGER_RET: 10000 in 26.8 ms.
+LOG_SPEED: 20: 200000 in 7,659.29 ms.
+IS_ENABLED: 20: 200000 in 0.18 ms.
+LOGGER_CRE: 20: in 0.58 ms.
+LOGGER_RET: 20: 200000 in 771.55 ms.
+Duration: 17,378.78 ms.
+Allocation: 0 bytes.
+#################################
+#################################
+Test: OAKTREE_FILE threads 20 @ 20:23:21
+#################################
+LOG_SPEED: 10000 in 463.98 ms.
+IS_ENABLED: 10000 in 0.44 ms.
+LOGGER_CRE: 10000 in 0.1 ms.
+LOGGER_RET: 10000 in 31.52 ms.
+LOG_SPEED: 20: 200000 in 3,634.13 ms.
+IS_ENABLED: 20: 200000 in 0.11 ms.
+LOGGER_CRE: 20: in 1.08 ms.
+LOGGER_RET: 20: 200000 in 354.48 ms.
+Duration: 9,452.48 ms.
+Allocation: 0 bytes.
+#################################
+#################################
+Test: JDK threads 20 @ 20:23:33
+#################################
+LOG_SPEED: 10000 in 1,444.56 ms.
+IS_ENABLED: 10000 in 0.44 ms.
+LOGGER_CRE: 10000 in 0.03 ms.
+LOGGER_RET: 10000 in 125.31 ms.
+LOG_SPEED: 20: 200000 in 20,662.53 ms.
+IS_ENABLED: 20: 200000 in 0.1 ms.
+LOGGER_CRE: 20: in 0.53 ms.
+LOGGER_RET: 20: 200000 in 2,133.69 ms.
+Duration: 45,576.16 ms.
+Allocation: 0 bytes.
+#################################
+#################################
+Test: Logback threads 20 @ 20:24:21
+#################################
+LOG_SPEED: 10000 in 688.64 ms.
+IS_ENABLED: 10000 in 6.24 ms.
+LOGGER_CRE: 10000 in 0.17 ms.
+LOGGER_RET: 10000 in 38.65 ms.
+LOG_SPEED: 20: 200000 in 8,835.15 ms.
+IS_ENABLED: 20: 200000 in 0.08 ms.
+LOGGER_CRE: 20: in 4.32 ms.
+LOGGER_RET: 20: 200000 in 886.32 ms.
+Duration: 25,003.35 ms.
+Allocation: 0 bytes.
+#################################
+#################################
+Test: Log4J threads 20 @ 20:24:49
+#################################
+LOG_SPEED: 10000 in 750.18 ms.
+IS_ENABLED: 10000 in 0.94 ms.
+LOGGER_CRE: 10000 in 0.01 ms.
+LOGGER_RET: 10000 in 34.47 ms.
+LOG_SPEED: 20: 200000 in 7,668.11 ms.
+IS_ENABLED: 20: 200000 in 0.33 ms.
+LOGGER_CRE: 20: in 0.1 ms.
+LOGGER_RET: 20: 200000 in 783.53 ms.
+Duration: 17,502.37 ms.
+Allocation: 0 bytes.
+#################################
+#################################
+Test: Log4J2 threads 20 @ 20:25:09
+#################################
+LOG_SPEED: 10000 in 868.94 ms.
+IS_ENABLED: 10000 in 0.7 ms.
+LOGGER_CRE: 10000 in 0.22 ms.
+LOGGER_RET: 10000 in 188.67 ms.
+LOG_SPEED: 20: 200000 in 11,469.92 ms.
+IS_ENABLED: 20: 200000 in 0.37 ms.
+LOGGER_CRE: 20: in 1.76 ms.
+LOGGER_RET: 20: 200000 in 2,491.22 ms.
+Duration: 41,387.3 ms.
+Allocation: 0 bytes.
+#################################
+#################################
+Test: LogbackAsync threads 20 @ 20:25:53
+#################################
+LOG_SPEED: 10000 in 676.78 ms.
+IS_ENABLED: 10000 in 6.35 ms.
+LOGGER_CRE: 10000 in 0.24 ms.
+LOGGER_RET: 10000 in 37.22 ms.
+LOG_SPEED: 20: 200000 in 8,013.44 ms.
+IS_ENABLED: 20: 200000 in 0.24 ms.
+LOGGER_CRE: 20: in 3.95 ms.
+LOGGER_RET: 20: 200000 in 889.31 ms.
+Duration: 24,555.48 ms.
+Allocation: 0 bytes.
+#################################
+#################################
+Test: Log4JAsnyc threads 20 @ 20:26:20
+#################################
+LOG_SPEED: 10000 in 645.09 ms.
+IS_ENABLED: 10000 in 0.66 ms.
+LOGGER_CRE: 10000 in 0.01 ms.
+LOGGER_RET: 10000 in 29.75 ms.
+LOG_SPEED: 20: 200000 in 7,452.05 ms.
+IS_ENABLED: 20: 200000 in 0.29 ms.
+LOGGER_CRE: 20: in 0.1 ms.
+LOGGER_RET: 20: 200000 in 736.88 ms.
+Duration: 16,805.57 ms.
+Allocation: 0 bytes.
+#################################
+#################################
+Test: Log4J2ASYNC threads 20 @ 20:26:40
+#################################
+LOG_SPEED: 10000 in 122.23 ms.
+IS_ENABLED: 10000 in 3.6 ms.
+LOGGER_CRE: 10000 in 0.23 ms.
+LOGGER_RET: 10000 in 80.94 ms.
+LOG_SPEED: 20: 200000 in 11,673.47 ms.
+IS_ENABLED: 20: 200000 in 0.39 ms.
+LOGGER_CRE: 20: in 1.77 ms.
+LOGGER_RET: 20: 200000 in 1,219.95 ms.
+Duration: 27,012.31 ms.
+Allocation: 0 bytes.
+#################################
+#################################
+Test: OAKTREE_BGFILE threads 20 @ 20:27:09
+#################################
+LOG_SPEED: 10000 in 103.27 ms.
+IS_ENABLED: 10000 in 0.35 ms.
+LOGGER_CRE: 10000 in 0.16 ms.
+LOGGER_RET: 10000 in 21.56 ms.
+LOG_SPEED: 20: 200000 in 1,225.91 ms.
+IS_ENABLED: 20: 200000 in 0.13 ms.
+LOGGER_CRE: 20: in 1.01 ms.
+LOGGER_RET: 20: 200000 in 169.42 ms.
+Duration: 4,465.36 ms.
+Allocation: 0 bytes.
 #################################
