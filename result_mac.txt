@@ -1,0 +1,44 @@
+#################################
+Test: Oaktree threads 20
+#################################
+LOG_SPEED: 10000 in 1,340.75 ms.
+IS_ENABLED: 10000 in 0.25 ms.
+LOGGER_RET: 10000 in 0.66 ms.
+LOG_SPEED: 20: 200000 in 46,314.21 ms.
+IS_ENABLED: 20: 200000 in 0.07 ms.
+LOGGER_RET: 20: 200000 in 0.77 ms.
+Duration: 47,716.52 ms.
+#################################
+#################################
+Test: JDK threads 20
+#################################
+LOG_SPEED: 10000 in 2,674.87 ms.
+IS_ENABLED: 10000 in 0.29 ms.
+LOGGER_RET: 10000 in 1.29 ms.
+LOG_SPEED: 20: 200000 in 53,304.29 ms.
+IS_ENABLED: 20: 200000 in 0.19 ms.
+LOGGER_RET: 20: 200000 in 264.07 ms.
+Duration: 58,909.04 ms.
+#################################
+#################################
+Test: LogBack threads 20
+#################################
+LOG_SPEED: 10000 in 1,498.64 ms.
+IS_ENABLED: 10000 in 0.3 ms.
+LOGGER_RET: 10000 in 1.43 ms.
+LOG_SPEED: 20: 200000 in 37,406.09 ms.
+IS_ENABLED: 20: 200000 in 0.18 ms.
+LOGGER_RET: 20: 200000 in 95.89 ms.
+Duration: 39,947.13 ms.
+#################################
+#################################
+Test: Log4J threads 20
+#################################
+LOG_SPEED: 10000 in 1,385.05 ms.
+IS_ENABLED: 10000 in 0.25 ms.
+LOGGER_RET: 10000 in 0.69 ms.
+LOG_SPEED: 20: 200000 in 46,449.18 ms.
+IS_ENABLED: 20: 200000 in 0.07 ms.
+LOGGER_RET: 20: 200000 in 0.78 ms.
+Duration: 47,894.28 ms.
+#################################
